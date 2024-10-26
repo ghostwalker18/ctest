@@ -19,11 +19,11 @@ include_directories(${PROJECT_NAME} PUBLIC ../app)
 
 set (EXT_HEADERS
 
-        ../app/myfunc.h
+        ../app/my_functions.h
         )
 
 set (EXT_SOURCES
-        ../app/myfunc.c
+        ../app/my_functions.c
         )
 
 add_definitions(-DINPUTDIR="${PROJECT_SOURCE_DIR}/input")

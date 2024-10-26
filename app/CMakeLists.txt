@@ -8,11 +8,11 @@ add_definitions ("-Wall -Wextra -Wpedantic -Weffc++ -Wconversion -Wunreachable-c
 
 set(SOURCES
         main.c
-        myfunc.c
+        my_functions.c
         )
 
 set(HEADERS
-        myfunc.h
+        my_functions.h
         )
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
