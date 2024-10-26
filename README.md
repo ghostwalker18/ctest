@@ -1,5 +1,5 @@
 [![CI/CD GitHub Actions](https://github.com/ghostwalker18/ctest/actions/workflows/test-action.yml/badge.svg)](https://github.com/ghostwalker18/ctest/actions/workflows/test-action.yml)
-[![Coverage Status](https://coveralls.io/repos/ghostwalker18/ctest/badge.svg?branch=main)](https://coveralls.io/github/ghostwalker18/ctest?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/ghostwalker18/ctest/badge.svg?branch=master)](https://coveralls.io/github/ghostwalker18/ctest?branch=master)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=ghostwalker18_ctest&metric=alert_status)](https://sonarcloud.io/dashboard?id=ghostwalker18_ctest)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ghostwalker18_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ghostwalker18_ctest)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=ghostwalker18_ctest&metric=code_smells)](https://sonarcloud.io/dashboard?id=ghostwalker18_ctest)
