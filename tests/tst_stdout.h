@@ -11,7 +11,7 @@
 #include <fcntl.h>
 
 extern "C" {
-#include "myfunc.h"
+#include "my_functions.h"
 }
 
 

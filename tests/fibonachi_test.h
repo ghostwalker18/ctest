@@ -8,7 +8,7 @@
 #include <unistd.h>
 
 extern "C" {
-#include "myfunc.h"
+#include "my_functions.h"
 }
 
 TEST(fibonachiTest, num0) {

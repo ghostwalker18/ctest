@@ -3,7 +3,7 @@
 
 /* using namespace testing; */
 extern "C" {
-#include "myfunc.h"
+#include "my_functions.h"
 }
 
 TEST(test1, suite1)
