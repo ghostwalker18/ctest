@@ -7,14 +7,14 @@ int fibonachi(int num);
 
 void printStdoutMessages();
 
-struct roots{
-    struct root x1;
-    struct root x2
-};
-
 struct root{
     float a;
     float b;
+};
+
+struct roots{
+    struct root x1;
+    struct root x2;
 };
 
 int GCD(int a, int b);
