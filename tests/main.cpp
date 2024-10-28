@@ -1,7 +1,4 @@
-#include "tst_test1.h"
-#include "fibonachi_test.h"
-#include "tst_stdout.h"
-
+#include "equations_test.h"
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[])

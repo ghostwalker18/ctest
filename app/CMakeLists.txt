@@ -6,13 +6,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_definitions ("-Wall -Wextra -Wpedantic -Weffc++ -Wconversion -Wunreachable-code -Wold-style-cast")
 
+
 set(SOURCES
         main.c
-        myfunc.c
+        my_functions.c
         )
 
 set(HEADERS
-        myfunc.h
+        my_functions.h
         )
+        
+link_libraries(m)
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
