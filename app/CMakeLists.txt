@@ -14,5 +14,7 @@ set(SOURCES
 set(HEADERS
         my_functions.h
         )
+        
+link_libraries(m)
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
