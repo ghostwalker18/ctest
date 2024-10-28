@@ -9,10 +9,10 @@ CONFIG -= qt
 HEADERS += tst_test1.h 
 HEADERS += tst_stdout.h
 HEADERS +=  fibonachi_test.h
-HEADERS += ../app/myfunc.h
+HEADERS += ../app/my_functions.h
 
 SOURCES += main.cpp 
-SOURCES += ../app/myfunc.c
+SOURCES += ../app/my_functions.c
 
 QMAKE_CXXFLAGS += -Wall -Wextra -Werror
 QMAKE_CFLAGS += -Wall -Wextra -Werror
