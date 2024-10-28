@@ -10,23 +10,22 @@ set(CMAKE_C_FLAGS "-Wall -Wextra -Wpedantic -Wconversion -Wunreachable-code -Wol
 include(GoogleTest)
 
 set (TESTS
-        fibonachi_test.h
-        tst_stdout.h
-        tst_test1.h
+	equations_test.h
         )
 
 include_directories(${PROJECT_NAME} PUBLIC ../app)
 
 set (EXT_HEADERS
-
-        ../app/myfunc.h
+        ../app/my_functions.h
         )
 
 set (EXT_SOURCES
-        ../app/myfunc.c
+        ../app/my_functions.c
         )
 
 add_definitions(-DINPUTDIR="${PROJECT_SOURCE_DIR}/input")
+
+add_link_options("-lm")
 
 add_executable(${PROJECT_NAME} main.cpp ${TESTS} ${EXT_HEADERS} ${EXT_SOURCES})
 
