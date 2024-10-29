@@ -9,6 +9,7 @@ struct root{
 struct roots{
     struct root x1;
     struct root x2;
+    int valid;
 };
 
 int GCD(int a, int b);
